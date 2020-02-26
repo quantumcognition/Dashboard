@@ -1,0 +1,14 @@
+<app-accordians></app-accordians>
+
+<mat-grid-list cols="3" rowHeight="1:1">
+    <mat-grid-tile><app-pie-chart></app-pie-chart></mat-grid-tile>
+    <mat-grid-tile><app-line-chart></app-line-chart></mat-grid-tile>
+    <mat-grid-tile><app-tree-map></app-tree-map></mat-grid-tile>   
+</mat-grid-list>
+
+<ag-grid-angular
+    style="width: 100%; height: 280px; margin-top: 30px;"
+    class="ag-theme-balham-dark"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs">
+</ag-grid-angular>
