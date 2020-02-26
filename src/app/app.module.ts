@@ -18,6 +18,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { PieChartComponent } from './global/charts/pie-chart/pie-chart.component';
 import { TreeMapComponent } from './global/charts/tree-map/tree-map.component';
 import { LineChartComponent } from './global/charts/line-chart/line-chart.component';
+import { AnimationComponent } from './global/animation/animation.component';
+import { GameComponent } from './global/game/game.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,9 @@ import { LineChartComponent } from './global/charts/line-chart/line-chart.compon
     AccordiansComponent,
     PieChartComponent,
     TreeMapComponent,
-    LineChartComponent
+    LineChartComponent,
+    AnimationComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +46,8 @@ import { LineChartComponent } from './global/charts/line-chart/line-chart.compon
     MatButtonModule,
     MatExpansionModule,
     GoogleChartsModule.forRoot(),
-    MatGridListModule
+    MatGridListModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

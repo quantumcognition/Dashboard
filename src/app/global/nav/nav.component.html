@@ -1,3 +1,8 @@
 <mat-toolbar class="navBar">
-    <span>Dashboard</span>
+    <span class="title">Dashboard</span>
+    <button mat-button class="click-btn" routerLink="/" routerLinkActive="active"> <mat-icon >home</mat-icon></button>
+    <button mat-button class="click-btn" routerLink="/animations" routerLinkActive="active">Animations</button>
+    <button mat-button class="click-btn" routerLink="/games" routerLinkActive="active">Games</button>
+    <span class="example-spacer"></span>
+    <button mat-button (click)="gitSrc()"><img src="/assets/github-logo.svg"/></button>
 </mat-toolbar>

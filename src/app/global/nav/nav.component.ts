@@ -12,4 +12,11 @@ export class NavComponent implements OnInit {
   ngOnInit() {
   }
 
+  gitSrc(){
+    window.open("https://github.com/quantumcognition/Dashboard");
+  }
+
+  openAnimationPage(){
+    
+  }
 }
