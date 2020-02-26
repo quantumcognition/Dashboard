@@ -42,7 +42,7 @@ export class TreeMapComponent implements OnInit {
      headerHeight:15,
      showScale:true
   };
-  width = 550;
+  width = 500;
   height = 400;
   
   constructor() { }

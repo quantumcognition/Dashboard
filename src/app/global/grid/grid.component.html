@@ -1,10 +1,17 @@
 <app-accordians></app-accordians>
 
-<mat-grid-list cols="3" rowHeight="1:1">
-    <mat-grid-tile><app-pie-chart></app-pie-chart></mat-grid-tile>
-    <mat-grid-tile><app-line-chart></app-line-chart></mat-grid-tile>
-    <mat-grid-tile><app-tree-map></app-tree-map></mat-grid-tile>   
-</mat-grid-list>
+<mat-tab-group> 
+    <mat-tab label="Charts"> 
+        <mat-grid-list cols="3" rowHeight="1:1">
+        <mat-grid-tile><app-pie-chart></app-pie-chart></mat-grid-tile>
+        <mat-grid-tile><app-line-chart></app-line-chart></mat-grid-tile>
+        <mat-grid-tile><app-tree-map></app-tree-map></mat-grid-tile>   
+        </mat-grid-list> 
+    </mat-tab>
+    <mat-tab label="Second"> Content 2 </mat-tab>
+    <mat-tab label="Third"> Content 3 </mat-tab>
+  </mat-tab-group>
+
 
 <ag-grid-angular
     style="width: 100%; height: 280px; margin-top: 30px;"
@@ -12,3 +19,4 @@
     [rowData]="rowData"
     [columnDefs]="columnDefs">
 </ag-grid-angular>
+

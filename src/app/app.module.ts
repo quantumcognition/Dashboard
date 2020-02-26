@@ -21,6 +21,7 @@ import { LineChartComponent } from './global/charts/line-chart/line-chart.compon
 import { AnimationComponent } from './global/animation/animation.component';
 import { GameComponent } from './global/game/game.component';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatExpansionModule,
     GoogleChartsModule.forRoot(),
     MatGridListModule,
-    MatIconModule
+    MatIconModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
