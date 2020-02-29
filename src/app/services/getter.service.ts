@@ -8,11 +8,11 @@ export class GetterService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getter(url){
-    this.httpClient.get(url).subscribe(data =>{
-     console.log(data);
+  // getter(url){
+  //   this.httpClient.get(url).subscribe(data =>{
+  //    console.log(data);
       
-    })
-  }
+  //   })
+  // }
 
 }
