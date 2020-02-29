@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { animation } from '@angular/animations';
 
 @Component({
   selector: 'app-animation',
