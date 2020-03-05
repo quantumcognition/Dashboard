@@ -22,6 +22,8 @@ import { AnimationComponent } from './global/animation/animation.component';
 import { GameComponent } from './global/game/game.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
+import { ProjectsComponent } from './global/projects/projects.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     TreeMapComponent,
     LineChartComponent,
     AnimationComponent,
-    GameComponent
+    GameComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +52,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     GoogleChartsModule.forRoot(),
     MatGridListModule,
     MatIconModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
