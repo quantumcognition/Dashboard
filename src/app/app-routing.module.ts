@@ -4,12 +4,14 @@ import { AnimationComponent } from './global/animation/animation.component';
 import { GridComponent } from './global/grid/grid.component';
 import { GameComponent } from './global/game/game.component';
 import { ProjectsComponent } from './global/projects/projects.component';
+import { ResumeComponent } from './global/resume/resume.component';
 
 const routes: Routes = [
   { path: 'projects', component: ProjectsComponent},
   { path: 'animations', component: AnimationComponent },
-  { path: 'games', component: GameComponent },
-  { path: '', component: GridComponent },
+  // { path: 'articles', component: GameComponent },
+  { path: 'analytics', component: GridComponent },
+  // { path: 'resume', component: ResumeComponent },
 ];
 
 @NgModule({

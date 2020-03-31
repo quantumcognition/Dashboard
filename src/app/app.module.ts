@@ -24,6 +24,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
 import { ProjectsComponent } from './global/projects/projects.component';
 import { MatCardModule } from '@angular/material/card';
+import { ResumeComponent } from './global/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MatCardModule } from '@angular/material/card';
     LineChartComponent,
     AnimationComponent,
     GameComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
