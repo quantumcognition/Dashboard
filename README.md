@@ -1,7 +1,3 @@
-Information - 
-Dashboard template for visualizing data
-
-
 Stack - 
 Angular 9, Angular Material, Ag-grid, Google charts
 
